@@ -1,10 +1,10 @@
 # unifiMacSearch
 Uses ssh to search to the unifi mongo db for a mac address.
 
-The unoffical unifi API doesn't have a simple way to search by mac address.
+The unoffical unifi API doesn't have a simple way to search by mac address.  
 Here's a bash script to do it for you.
 
-Download to anywhere you can run bash from and reach the cli of your unifi server.
+Download to anywhere you can run bash scripts from and reach the cli of your unifi server.  
 If you are using Windows, I recommend checking out mobaxterm.
 
 Modify the server and username (lines 18 & 19) appropriately.

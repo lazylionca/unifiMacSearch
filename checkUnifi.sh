@@ -84,7 +84,7 @@ name=$(jq -r '.name' <<< $a)
 
 
 # get the site info using the above site_id
-b=$(ssh vccadmin@$server "mongo --port 27117 ace --eval 'db.site.find({\"_id\":ObjectId(\"$siteId\")})'")
+b=$(ssh $username@$server "mongo --port 27117 ace --eval 'db.site.find({\"_id\":ObjectId(\"$siteId\")})'")
 
 
 # extract invalid json and fix it

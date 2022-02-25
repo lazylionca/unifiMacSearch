@@ -17,7 +17,7 @@ mac=${1,,}
 # server cli info (not the web gui creds)
 server="fqdn.server.com"
 username="youser"
-#password="batteryhorsestaple"   # password will need sshpass, but I like mobaxterm better.
+#password="batteryhorsestaple"   # $password will need sshpass, but I like mobaxterm better.
 
 
 # search for mac, returns a string
@@ -37,7 +37,7 @@ fi
 a=${a:65}
 
 
-# jq will not parse the json as is; it is considered "invalid json format" because ubiquiti, so we fix it.
+# jq will not parse the json as is; it is considered "invalid json format" because ~~ubiquiti~~ mongo, so we fix it.
 # https://jsonparseronline.com/
 
 # before

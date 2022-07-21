@@ -69,6 +69,11 @@ while [[ "$a" == *"$s"* ]]; do
 	a="${a/$s/,}"
 done
 
+s=') '
+while [[ "$a" == *"$s"* ]]; do
+	a="${a/$s/}"
+done
+
 
 # after
 # echo $a >>test.json
